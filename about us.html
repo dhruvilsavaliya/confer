@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Confer- Conference Event HTML</title>
+
+  <!-- favicon icon -->
+  <link rel="shortcut icon" href="image/favicon.png.webp" type="image/x-icon" />
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="css/all.min.css" />
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- -------------------------start header------------------------------- -->
+
+  <header class="bgblack header_area">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg p-0">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="image/asset 0.png" alt="" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="bi bi-list"></span>
+          </button>
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body pt-4 px-0">
+              <ul class="mobile_main_menu d-lg-none">
+                <li><a href="index.html" class="active">home</a></li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    PAGES
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="" href="index.html">- home</a></li>
+                    <li><a class="" href="#">- page</a></li>
+                    <li><a class="" href="speaker.html">- speakers</a></li>
+                    <li><a class="" href="blog.html">- blog</a></li>
+                    <li><a class="" href="contact.html">- contact</a></li>
+                  </ul>
+                </li>
+                <li><a href="speaker.html">speakers</a></li>
+                <li><a href="blog.html">blog</a></li>
+                <li><a href="contact.html">contact</a></li>
+              </ul>
+              <button class="btn confer_btn rounded-5 ms-3 my-3" type="submit">
+                get tickets
+                <i class="bi bi-arrow-right ms-1"></i>
+              </button>
+            </div>
+          </div>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 main_menu">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">pages
+                  <i class="bi bi-chevron-down active"></i>
+                </a>
+                <ul class="sub_menu rounded-1">
+                  <li><a href="index.html">- home</a></li>
+                  <li><a href="about us.html">- about us</a></li>
+                  <li><a href="speaker.html">- speakers</a></li>
+                  <li><a href="schedule.html">- schedules</a></li>
+                  <li><a href="#">- tickets</a></li>
+                  <li><a href="blog.html">- blog</a></li>
+                  <li><a href="single blog.html">- single blog</a></li>
+                  <li><a href="contact.html">- contact</a></li>
+                  <li class="has_down">
+                    <a href="#">- dropdown
+                      <i class="bi bi-chevron-right"></i>
+                    </a>
+                    <ul class="mega_menu rounded-1">
+                      <li><a href="#">- dropdown item</a></li>
+                      <li><a href="#">- dropdown item</a></li>
+                      <li><a href="#">- dropdown item</a></li>
+                      <li><a href="#">- dropdown item</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="speaker.html">speakers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">contact</a>
+              </li>
+            </ul>
+            <form class="d-flex ms-5" role="search">
+              <button class="btn confer_btn rounded-5" type="submit">
+                get tickets
+                <i class="bi bi-arrow-right ms-1"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- -------------------------end header------------------------------- -->
+
+    <!-- -------------------------start breadcrumb area  ------------------------------- -->
+    <section class=" about_us_breadcrumb_area  bg_gradient">
+     <div class="container ">
+          <div class="row ">
+               <div class="col-12">
+                    <div class="breadcrumb_content">
+                         <h2 class="page_title text-uppercase">about us</h2>
+                         <nav>
+                              <ol class="breadcrumb pointer-event">
+                                   <li class="breadcrumb_item">
+                                        <a href="index.html">Home</a>
+                                   </li>
+                                   <a href="#">
+                                        <i class="bi bi-chevron-right px-1 text-white"></i>
+                                   </a>
+                                   <li class="breadcrumb_item">
+                                        <a href="">About us</a>
+                                   </li>
+                              </ol>
+                         </nav>
+                    </div>
+               </div>
+          </div>
+     </div>
+   </section>
+   <!-- -------------------------end breadcrumb area ------------------------------- -->
+   <!-- -------------------------start offer area ------------------------------- -->
+   <section class="offer_area" >
+     <div class="container">
+          <div class="section_spacer_100">
+               <div class="section_heading_2  text-center">
+                    <p class="m-0 bgpink text-uppercase">summit meeting</p>
+                    <h4>what we offer</h4>
+               </div>
+               <div class="row">
+                    <div class="col-12 col-md-6 col-xl-3">
+                         <div class="single_we_offer text-center p-4 rounded-3">
+                              <div class="offer_icon m-auto">
+                                   <img src="about image/asset 1.png" alt="">
+                              </div>
+                              <h5 class="mt-4">Conference</h5>
+                              <p class="mb-1">Nam libero tempore, cum soluta nobis est eligendi optio cumque</p>
+                         </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3">
+                         <div class="single_we_offer text-center p-4 rounded-3">
+                              <div class="offer_icon m-auto">
+                                   <img src="about image/asset 2.png" alt="">
+                              </div>
+                              <h5 class="mt-4">Workshop</h5>
+                              <p class="mb-1">Temporibus autem quibusdam et aut officiis debitis aut rerum</p>
+                         </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3">
+                         <div class="single_we_offer text-center p-4 rounded-3">
+                              <div class="offer_icon m-auto">
+                                   <img src="about image/asset 3.png" alt="">
+                              </div>
+                              <h5 class="mt-4">Coffee Breaks</h5>
+                              <p class="mb-1">Nam libero tempore, cum soluta nobis est eligendi optio cumque</p>
+                         </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3">
+                         <div class="single_we_offer text-center p-4 rounded-3">
+                              <div class="offer_icon m-auto">
+                                   <img src="about image/asset 4.png" alt="">
+                              </div>
+                              <h5 class="mt-4">Events</h5>
+                              <p class="mb-1">These cases are perfectly simple and easy to distinguish in a free hour</p>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+   </section>
+   <!-- -------------------------end offer area ------------------------------- -->
+  <!-- -------------------------start about us------------------------------- -->
+  <section class="bgblue">
+    <div class="container">
+      <div class="spacer">
+        <div class="row">
+          <div class="about_content col-12 col-md-6">
+            <h6 class="py-1 d-inline-block mb-3">About Conference</h6>
+            <h3 class="text-uppercase mb-4">
+              Welcome to the Project Management
+            </h3>
+            <p class="fs-6">
+              The Project Management is a platform to learn expert techniques
+              for building successful project teams, creating efficient plans
+              and implementing effective tracking measures to ensure your
+              projects come in on deadline and on budget. In one fast-paced,
+              well-designed day, we’ll cover all the essential elements of
+              project management.
+            </p>
+            <a href="#" class="btn confer_btn rounded-5 text-end mt-5">Interested
+              <i class="bi bi-arrow-right ms-1"></i>
+            </a>
+          </div>
+          <div class="about_img col-12 col-md-6">
+            <img src="image/asset 1.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="countdown_up_area">
+      <div class="container">
+        <div class="row">
+          <div class="countdown_text col-12 col-md-3">
+            <h6 class="py-1 d-inline-block mb-3">Conference Date</h6>
+            <h4 class="text-uppercase mb-4">
+              Count Every Second Until the Event
+            </h4>
+          </div>
+          <div class="countdown_timer col-12 col-md-9">
+            <div id="clock" class="text-center">
+              <div>
+                00
+                <span>Months</span>
+              </div>
+              <div>
+                00
+                <span>Days</span>
+              </div>
+              <div>
+                00
+                <span>Hours</span>
+              </div>
+              <div>
+                00
+                <span>Minutes</span>
+              </div>
+              <div>
+                00
+                <span>Seconds</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- -------------------------end  about us------------------------------- -->
+
+  <!-- ------------------------- start speaker area------------------------------- -->
+  <section>
+    <div class="container">
+      <div class="section_spacer text-center col-12">
+        <div class="section_heading_2  text-center">
+          <p class="m-0 bgpink text-uppercase">summit meeting</p>
+          <h4>what we offer</h4>
+        </div>
+        <div class="row g-5 mb-5">
+          <div class="single_speaker col-12 col-md-6 col-lg-4">
+            <div class="speaker_thumb overflow-hidden position-relative">
+              <img src="image/asset 2.jpeg" class="" alt="" />
+              <div class="social_info">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </div>
+              <div class="speaker_info">
+                <h5>Albert Barnes</h5>
+                <p>Founder</p>
+              </div>
+            </div>
+          </div>
+          <div class="single_speaker col-12 col-md-6 col-lg-4">
+            <div class="speaker_thumb overflow-hidden position-relative">
+              <img src="image/asset 3.jpeg" class="rounded-3" alt="" />
+              <div class="social_info">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </div>
+              <div class="speaker_info">
+                <h5>Patricia Stanley</h5>
+                <p>Product Lead</p>
+              </div>
+            </div>
+          </div>
+          <div class="single_speaker col-12 col-md-6 col-lg-4">
+            <div class="speaker_thumb overflow-hidden position-relative">
+              <img src="image/asset 4.jpeg" class="rounded-3" alt="" />
+              <div class="social_info">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </div>
+              <div class="speaker_info">
+                <h5>Evelyn Stone</h5>
+                <p>Photographer</p>
+              </div>
+            </div>
+          </div>
+          <div class="single_speaker col-12 col-md-6 col-lg-4">
+            <div class="speaker_thumb overflow-hidden position-relative">
+              <img src="image/asset 5.jpeg" class="rounded-3" alt="" />
+              <div class="social_info">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </div>
+              <div class="speaker_info">
+                <h5>Evelyn Stone</h5>
+                <p>Photographer</p>
+              </div>
+            </div>
+          </div>
+          <div class="single_speaker col-12 col-md-6 col-lg-4">
+            <div class="speaker_thumb overflow-hidden position-relative">
+              <img src="image/asset 6.jpeg" class="rounded-3" alt="" />
+              <div class="social_info">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </div>
+              <div class="speaker_info">
+                <h5>Susan Hopkins</h5>
+                <p>UX Manager</p>
+              </div>
+            </div>
+          </div>
+          <div class="single_speaker col-12 col-md-6 col-lg-4">
+            <div class="speaker_thumb overflow-hidden position-relative">
+              <img src="image/asset 7.jpeg" class="rounded-3" alt="" />
+              <div class="social_info">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </div>
+              <div class="speaker_info">
+                <h5>Michael Fowler</h5>
+                <p>Product Design</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="single_speaker_btn text-center col-12 mb-4">
+          <button class="btn confer_btn rounded-5" type="submit">
+            view all speakers
+            <i class="bi bi-arrow-right ms-1"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- -------------------------end speaker area ------------------------------- -->
+  <!-- -------------------------start our gallery area ------------------------------- -->
+  <section class="our_gallery">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-sm-3">
+          <div class="single_gallery_thumb">
+            <img src="image/28.jpg.webp" alt="">
+          </div>
+        </div>
+        <div class="col-12 col-sm-3">
+          <div class="single_gallery_thumb">
+            <img src="image/29.jpg.webp" alt="">
+          </div>
+        </div>
+        <div class="col-12 col-sm-6">
+          <div class="single_gallery_thumb mb-3">
+            <img src="image/30.jpg.webp" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-6">
+          <div class="single_gallery_thumb">
+            <img src="image/31.jpg.webp" alt="">
+          </div>
+        </div>
+        <div class="col-12 col-sm-3">
+          <div class="single_gallery_thumb">
+            <img src="image/32.jpg.webp" alt="">
+          </div>
+        </div>
+        <div class="col-12 col-sm-3">
+          <div class="single_gallery_thumb">
+            <img src="image/33.jpg.webp" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- -------------------------end our gallery area ------------------------------- -->  
+  <!-- -------------------------start our client area ------------------------------- -->  
+  <section>
+    <div class="container">
+      <div class="section_spacer_100">
+        <div class="section_heading_2  text-center">
+          <p class="m-0 bgpink text-uppercase">what clients say</p>
+          <h4>testimonials</h4>
+        </div>
+        <div class="col-12">
+          <div class="client_area">
+            <div class="owl-carousel owl-theme" id="client">
+              <div class="item">
+                <div class="single_client_content p-5 ">
+                  <div class="single_client_text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                  </div>
+                  <div class="single_client_thumb_info d-flex align-items-center">
+                    <div class="single_client_thumb">
+                      <img src="image/asset 23.jpeg" alt="">
+                    </div>
+                    <div class="single_client_info ms-3">
+                      <h6 class="text-capitalize m-0">Jacqueline Myers</h6>
+                      <p class="m-0">UX manager</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="single_client_content p-5 ">
+                  <div class="single_client_text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                  </div>
+                  <div class="single_client_thumb_info d-flex align-items-center">
+                    <div class="single_client_thumb">
+                      <img src="image/asset 24.jpeg" alt="">
+                    </div>
+                    <div class="single_client_info ms-3">
+                      <h6 class="text-capitalize m-0">Maria Hernandez</h6>
+                      <p class="m-0">UX manager</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- -------------------------start our client area ------------------------------- -->
+  <!-- -------------------------start footer area ------------------------------- -->
+  <footer class="footer_area">
+    <div class="container">
+      <div class="spacer">
+        <div class="row">
+            <div class=" col-12 col-sm-6 col-lg-3 single_footer">
+              <a href="#" class="footer_logo mb-4 d-block">
+                <img src="image/asset 0.png" alt="">
+              </a>
+              <p>To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain.</p>
+              <div class="social_info d-flex">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class=" col-12 col-sm-6 col-lg-3 single_footer ">
+              <h5 class="">Contact</h5>
+              <div class="footer_contact_info">
+                <p class=""><i class="bi bi-map-fill  me-2"></i>
+                  184 Main Collins Street</p>
+                <p class=""><i class="bi bi-telephone-fill"></i>
+                  (266) 446 9371</p>
+                <p class=""><i class="bi bi-envelope-fill"></i>
+                  confer@gmail.com</p>
+                <p class=""><i class="bi bi-globe-americas"></i>
+                  www.confer.com</p>
+              </div>
+            </div>
+            <div class=" col-12 col-sm-6 col-lg-3 single_footer  ">
+              <h5 class="">Workshops</h5>
+              <ul class="footer_nav">
+                <li>
+                  <a href="#">OSHA Compliance</a>
+                </li>
+                <li>
+                  <a href="#">Microsoft Excel Basics</a>
+                </li>
+                <li>
+                  <a href="#">Forum Speaker Series</a>
+                </li>
+                <li>
+                  <a href="#">Tedx Moscow Conference</a>
+                </li>
+              </ul>
+            </div>
+            <div class=" col-12 col-sm-6 col-lg-3 single_footer  ">
+              <h5 class="">Gallery</h5>
+              <div class="footer_gallery">
+                <div class="row">
+                  <div class="col-4">
+                    <a href="#">
+                      <img src="image/asset 28.jpeg" class="single_gallery_item" alt="">
+                    </a>
+                  </div>
+                  <div class="col-4">
+                    <a href="#">
+                      <img src="image/asset 29.jpeg" class="single_gallery_item" alt="">
+                    </a>
+                  </div>
+                  <div class="col-4">
+                    <a href="#">
+                      <img src="image/asset 30.jpeg" class="single_gallery_item" alt="">
+                    </a>
+                  </div>
+                  <div class="col-4">
+                    <a href="#">
+                      <img src="image/asset 31.jpeg" class="single_gallery_item" alt="">
+                    </a>
+                  </div>
+                  <div class="col-4">
+                    <a href="#">
+                      <img src="image/asset 32.jpeg" class="single_gallery_item" alt="">
+                    </a>
+                  </div>
+                  <div class="col-4">
+                    <a href="#">
+                      <img src="image/asset 33.jpeg" class="single_gallery_item" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="copy_write_content">
+        <div class="row justify-content-between col-sm-text-center">
+          <div class="col-12 col-md-6 px-3">
+            <div class="copy_write_text">
+              <p class="mb-0">Copyright © 2023 All rights reserved | This template is made with <i class="bi bi-suit-heart"></i> by
+              <a href="#">Colorlib</a> </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="footer_menu">
+              <ul class="nav justify-content-end">
+                <li>
+                  <a href="#">
+                    <i class="bi bi-dot fs-3"></i> Terms of Service
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="bi bi-dot fs-3"></i> Privacy Policy
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- -------------------------end footer area ------------------------------- -->
+</body>
+
+<script src="js/jquery-3.6.3.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/script.js"></script>
+</html>
+  <!-- -------------------------end our client area ------------------------------- -->  
