@@ -1,0 +1,353 @@
+@media screen and (max-width:992px) {
+  .navigation {
+    display: none !important;
+  }
+
+  .offcanvas {
+    --bs-offcanvas-width: 320px
+  }
+
+  header {
+    padding: 15px;
+  }
+
+  .mobile_main_menu>li>a,
+  .dropdown-menu>li>a {
+    padding: 10px 20px !important;
+    font-size: 14px;
+    color: var(--bgdarkblue) !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: block;
+  }
+
+  .dropdown-menu>li>a {
+    padding: 10px 30px !important;
+
+  }
+
+  .mobile_main_menu>li {
+    background-color: #f2f4f8 !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  }
+
+  .dropdown-menu>li {
+    border-bottom: 1px solid rgba(242, 244, 248, 0.7);
+  }
+
+  .dropdown-menu {
+    border: none;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .mobile_icon {
+    display: none !important;
+  }
+
+  .dropdown-toggle::after {
+    display: none;
+  }
+
+  .offcanvas-body .confer_btn {
+    display: none !important;
+  }
+  
+}
+
+@media screen and (min-width:1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media screen and (min-width:425px) and (max-width:991px) {
+  .contact_us_thumb{
+    margin-bottom: 100px !important;
+  }
+}
+@media screen and (min-width:768px) and (max-width:991px) {
+
+  header {
+    padding: 15px !important;
+  }
+
+  .welcome_text h2 {
+    font-size: 60px !important;
+  }
+
+  .welcome_text h2::before {
+    height: 15px !important;
+    top: 40px !important;
+  }
+
+  .welcome_text_two h2 {
+    font-size: 62px !important;
+  }
+
+  .welcome_text_two {
+    width: 100%;
+  }
+
+  .about_content h3 {
+    font-size: 24px !important;
+  }
+
+  .countdown_text h4 {
+    font-size: 14px !important;
+  }
+
+  .countdown_timer #clock div {
+    font-size: 36px !important;
+    margin: 0 5px !important;
+  }
+
+  .countdown_timer span {
+    font-size: 14px !important;
+  }
+
+  .schedule_tab .nav-item .nav_link {
+    font-size: 14px !important;
+  }
+
+  .single_schedule_tumb_info .single_schedule_info h6 {
+    font-size: 14px !important;
+  }
+
+  .single_schedule_tumb_info .single_schedule_info p {
+    font-size: 12px;
+  }
+
+  .schedule_time_place P {
+    font-size: 12px !important;
+  }
+  .single_schedule_area .single_schedule_tumb_info,
+  .single_schedule_area .schedule_time_place {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 35%;
+    flex: 0 0 35%;
+    max-width: 35%;
+    width: 35%;
+  }
+    .single_sponsor{
+      height: 150px !important;  
+  } 
+  .single_sponsor a img{
+    max-height: 50px;
+  }
+  .single_client_text p{
+    font-size: 14px !important;
+  }
+  .single_client_text P{
+    font-size: 14px !important;
+  }
+  .copy_write_text p{
+  font-size: 12px !important;
+  }
+  .footer_menu .nav li a{
+    font-size: 12px !important;
+  }
+  .contact_us_thumb{
+    margin-bottom: 100px !important;
+  }
+}
+@media screen and (max-width:767px) {
+
+  .welcome_text h2 {
+    font-size: 30px !important;
+  }
+
+  .welcome_text h2::before {
+    height: 20px !important;
+    top: 45px !important;
+    width: 240px !important;
+  }
+
+  .welcome_text h6 {
+    font-size: 14px !important;
+  }
+
+  .welcome_text_two h2 {
+    font-size: 30px !important;
+  }
+
+  .welcome_text_two h5 {
+    font-size: 20px !important;
+  }
+
+  .event_meta .event_date,
+  .event_meta .event_author {
+    font-size: 12px;
+    margin-right: 15px !important;
+  }
+
+  .about_content h3 {
+    font-size: 22px !important;
+  }
+
+  .countdown_timer #clock div {
+    font-size: 16px !important;
+    margin: 0 2px !important;
+  }
+
+  .countdown_timer span {
+    font-size: 10px !important;
+  }
+
+  .single_schedule_area .single_schedule_tumb_info,
+  .single_schedule_area .schedule_time_place,
+  .single_schedule_area .confer_btn {
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+
+  .single_schedule_tumb_info .single_schedule_info h6 {
+    font-size: 14px !important;
+  }
+
+  .single_schedule_tumb_info .single_schedule_info p {
+    font-size: 12px;
+  }
+
+  .schedule_time_place P {
+    font-size: 12px;
+  }
+
+  .single_schedule_area {
+    display: block;
+  }
+  .schedule_tab .nav-item .nav_link {
+    font-size: 10px !important;
+    padding: 10px !important;
+  }
+  .schedule_tab .nav .nav-item{
+    padding: 10px !important;
+    font-size: 10px;
+  }
+  .nav_link span{
+    font-size: 9px !important;
+  }
+  .section_heading h4{
+    font-size: 26px !important;
+  }
+  .single_sponsor{
+    height: 80px !important;
+  }
+  .single_sponsor  a img{
+    height: 30px !important;
+  }
+  .single_client_text p{
+    font-size: 14px !important;
+  }
+  .single_client_content{
+    padding: 30px !important;
+  }
+  .single_blog_area{
+    margin-bottom: 70px;
+  }
+  .single_contact h6{
+    font-size: 14px !important;
+  }
+  .contact_information{
+    margin-bottom: 100px;
+  }
+  .copy_write_text p{
+    font-size: 12px !important;
+    }
+    .footer_menu .nav li a{
+      font-size: 12px !important;
+    }
+    .page_title{
+      font-size: 24px !important;
+    }
+    .navbar-brand img{
+      max-width: 90px;
+    }
+    .container-fluid{
+      height: 75px;
+    }
+    .container-fluid{
+      padding: 0;
+    }
+    .single_gallery_thumb{
+      margin-bottom: 15px;
+      padding: 0px 10px;
+    }
+}
+
+@media screen and (min-width:567px) and (max-width:767px) {
+  .schedule_tab .nav-item .nav_link {
+    font-size: 14px !important;
+  }
+  .copy_write_content{
+    text-align: center;
+  }
+}
+
+@media screen and (min-width:480px) and (max-width:767px) {
+
+  .welcome_text_two h2 {
+    font-size: 42px !important;
+  }
+
+  .welcome_text h2 {
+    font-size: 42px !important;
+  }
+
+  .countdown_timer #clock div {
+    font-size: 24px !important;
+    margin: 0 2px !important;
+  }
+
+  .countdown_timer span {
+    font-size: 12px !important;
+  }
+  .schedule_tab .nav-item .nav_link{
+    font-size: 12px !important;
+    padding: 15px 20px !important;
+  }
+  .nav_link span{
+    font-size: 10px !important;
+  }
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+  .about_content h3 {
+    font-size: 32px !important;
+  }
+
+  .countdown_text h4 {
+    font-size: 16px !important;
+  }
+
+  .countdown_timer #clock div {
+    font-size: 42px !important;
+    margin: 0 10px !important;
+  }
+
+  .single_schedule_tumb_info .single_schedule_info h6 {
+    font-size: 16px !important;
+  }
+
+  .single_schedule_tumb_info .single_schedule_info p {
+    font-size: 12px;
+  }
+
+  .schedule_time_place P {
+    font-size: 12px;
+  }
+  .single_sponsor{
+    height: 200px !important;
+  } 
+  .single_sponsor a img{
+    height: 90px !important;
+  }
+  .ticket_Pricing_table p{
+    font-size: 14px !important;
+    margin-bottom: 8px;
+  }
+  .post_date,.post_auhtor{
+       font-size: 12px !important;
+  }
+}
